@@ -5,6 +5,9 @@
    scroll-behavior: smooth;
    font-family: Arial, sans-serif;
 }
+body{
+   overflow-x: hidden;
+}
 
 .main {
    height: inherit;
@@ -92,7 +95,7 @@ h1 .grey {
    height: 700px;
    width: 100%;
    background-size: cover;
-   background-image: url(./images/bg-image.jpg);
+   background-image: url(./image/bg-image.jpg);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -214,7 +217,7 @@ button:hover {
    line-height: 2.5rem;
 }
 .countainer {
-   background-image: url(./images/bg-zoo.avif);
+   background-image: url(./image/bg-zoo.avif);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -355,7 +358,7 @@ button:hover {
 }
 
 .section-block {
-   background-image: url(./images/bg\ animal.jpg);
+   background-image: url(./image/bg\ animal.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
@@ -493,7 +496,7 @@ button:hover {
    justify-content: center;
    align-items: center;
    background-color: white;
-   background-image: url(./images/bg-image.jpg);
+   background-image: url(./image/bg-image.jpg);
    background-size: cover;
 }
 
